@@ -48,8 +48,21 @@ main {
     padding-bottom: 3vw;
 	font-size: 1.2rem;
     color: #111111;
-    background-color: #f1fdff;
+    background-color: #f8feff;
     box-shadow: 0 0.3vw 0.5vw 0 rgba(0, 0, 0, .5);
+}
+
+.block{
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+    padding-left: 1.0vw;
+    padding-right: 1.0vw;
+    padding-top: 1.0vw;
+    padding-bottom: 1.0vw;
+    background-color: #eefdff;
+    box-shadow: 0 0.2vw 0.4vw 0 rgba(0, 0, 0, .5);
 }
   
 aside {
@@ -60,7 +73,7 @@ aside {
     padding-bottom: 3vw;
     line-height: 1vw;
 	font-size: 1.2rem;
-    background-color: #f1fdff;
+    background-color: #f8feff;
     box-shadow: 0 0.3vw 0.5vw 0 rgba(0, 0, 0, .5);
 }
 
