@@ -7,4 +7,14 @@ includeHeader.onreadystatechange = function () {
     header.insertAdjacentHTML("afterbegin", headerHTML);
   }
 };
-includeHeader.send();
+includeAside.send();
+const includeAside = new XMLHttpRequest();
+includeAside.open("GET", "aside.html", true);
+includeAside.onreadystatechange = function () {
+  if (includeAside.readyState === 4 && includeAside.status === 200) {
+    const asideHTML = includeHeader.responseText;
+    const aside = document.querySelector("#aside");
+    aside.insertAdjacentHTML("afterbegin", asideHTML);
+  }
+};
+includeAside.send();
